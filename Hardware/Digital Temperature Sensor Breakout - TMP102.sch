@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -10592,7 +10592,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <parts>
 <part name="R2" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="4.7k"/>
 <part name="R3" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="4.7k"/>
-<part name="R1" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="4.7k"/>
+<part name="R1" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="C1" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="JP5" library="SparkFun" deviceset="FIDUCIAL" device="1X2"/>
 <part name="JP6" library="SparkFun" deviceset="FIDUCIAL" device="1X2"/>
@@ -10614,47 +10614,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="JP3" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device="" value="ADD0"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".1_INCH"/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
+<part name="R4" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="60.96" y="139.7" size="2.54" layer="97">VCC: 1.4V to 3.6V</text>
 <text x="175.006" y="7.112" size="2.54" layer="94">Alex Wende</text>
-<text x="199.39" y="109.22" size="1.778" layer="97" align="center">GND (default)</text>
-<wire x1="187.96" y1="111.76" x2="223.52" y2="111.76" width="0.2032" layer="97"/>
-<wire x1="223.52" y1="111.76" x2="223.52" y2="106.68" width="0.2032" layer="97"/>
-<wire x1="223.52" y1="106.68" x2="223.52" y2="101.6" width="0.2032" layer="97"/>
-<wire x1="223.52" y1="101.6" x2="223.52" y2="96.52" width="0.2032" layer="97"/>
-<wire x1="223.52" y1="96.52" x2="223.52" y2="91.44" width="0.2032" layer="97"/>
-<wire x1="223.52" y1="91.44" x2="210.82" y2="91.44" width="0.2032" layer="97"/>
-<wire x1="210.82" y1="91.44" x2="187.96" y2="91.44" width="0.2032" layer="97"/>
-<wire x1="187.96" y1="91.44" x2="187.96" y2="96.52" width="0.2032" layer="97"/>
-<text x="199.39" y="115.57" size="1.778" layer="97" align="center">ADD0
-Connection</text>
-<text x="217.17" y="115.57" size="1.778" layer="97" align="center">I2C
-Address</text>
-<wire x1="187.96" y1="96.52" x2="187.96" y2="101.6" width="0.2032" layer="97"/>
-<wire x1="187.96" y1="101.6" x2="187.96" y2="106.68" width="0.2032" layer="97"/>
-<wire x1="187.96" y1="106.68" x2="187.96" y2="111.76" width="0.2032" layer="97"/>
-<wire x1="187.96" y1="111.76" x2="187.96" y2="119.38" width="0.2032" layer="97"/>
-<wire x1="187.96" y1="119.38" x2="210.82" y2="119.38" width="0.2032" layer="97"/>
-<wire x1="210.82" y1="119.38" x2="223.52" y2="119.38" width="0.2032" layer="97"/>
-<wire x1="223.52" y1="119.38" x2="223.52" y2="111.76" width="0.2032" layer="97"/>
-<wire x1="210.82" y1="119.38" x2="210.82" y2="91.44" width="0.2032" layer="97"/>
-<wire x1="187.96" y1="106.68" x2="223.52" y2="106.68" width="0.2032" layer="97"/>
-<wire x1="223.52" y1="101.6" x2="187.96" y2="101.6" width="0.2032" layer="97"/>
-<wire x1="223.52" y1="96.52" x2="187.96" y2="96.52" width="0.2032" layer="97"/>
-<text x="199.39" y="104.14" size="1.778" layer="97" align="center">VCC</text>
-<text x="199.39" y="99.06" size="1.778" layer="97" align="center">SDA</text>
-<text x="199.39" y="93.98" size="1.778" layer="97" align="center">SCL</text>
-<text x="217.17" y="109.22" size="1.778" layer="97" align="center">0x48</text>
-<text x="217.17" y="104.14" size="1.778" layer="97" align="center">0x49</text>
-<text x="217.17" y="99.06" size="1.778" layer="97" align="center">0x4A</text>
-<text x="217.17" y="93.98" size="1.778" layer="97" align="center">0x4B</text>
-<text x="121.92" y="93.98" size="1.778" layer="97" align="center">ADD0
+<text x="121.92" y="81.28" size="1.778" layer="97" align="center">ADD0
 pull-down</text>
 <text x="132.08" y="129.54" size="1.778" layer="97" align="center">I2C
 pull-up</text>
+<text x="134.62" y="88.9" size="1.778" layer="97">Default address : 0x48</text>
+<text x="134.62" y="73.66" size="1.778" layer="97">The address can be changed using an external
+jumper between ADD0 and the following pins:
+VCC - 0x49
+SDA - 0x4A
+SCL - 0x4B</text>
 </plain>
 <instances>
 <instance part="R2" gate="G$1" x="111.76" y="119.38" rot="R90"/>
@@ -10680,16 +10656,17 @@ pull-up</text>
 <attribute name="VERSION" x="236.22" y="6.604" size="2.54" layer="94" font="vector"/>
 </instance>
 <instance part="SUPPLY1" gate="G$1" x="66.04" y="114.3" rot="MR0"/>
-<instance part="GND1" gate="1" x="111.76" y="83.82"/>
+<instance part="GND1" gate="1" x="111.76" y="71.12"/>
 <instance part="SUPPLY2" gate="G$1" x="101.6" y="127" rot="MR0"/>
 <instance part="SUPPLY3" gate="G$1" x="116.84" y="137.16" rot="MR0"/>
 <instance part="JP2" gate="G$1" x="116.84" y="129.54" rot="R270"/>
 <instance part="U$2" gate="G$1" x="148.59" y="7.112"/>
-<instance part="JP3" gate="G$1" x="111.76" y="93.98" smashed="yes" rot="R270">
-<attribute name="NAME" x="106.68" y="96.52" size="1.778" layer="95" rot="R270"/>
+<instance part="JP3" gate="G$1" x="111.76" y="81.28" smashed="yes" rot="R270">
+<attribute name="NAME" x="106.68" y="83.82" size="1.778" layer="95" rot="R270"/>
 </instance>
 <instance part="LOGO2" gate="G$1" x="134.62" y="2.54"/>
 <instance part="LOGO3" gate="G$1" x="116.84" y="10.16"/>
+<instance part="R4" gate="G$1" x="111.76" y="93.98" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -10709,7 +10686,7 @@ pull-up</text>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="JP3" gate="G$1" pin="2"/>
-<wire x1="111.76" y1="86.36" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="73.66" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="1"/>
@@ -10773,9 +10750,9 @@ pull-up</text>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="ADD0"/>
-<wire x1="96.52" y1="101.6" x2="111.76" y2="101.6" width="0.1524" layer="91"/>
 <label x="129.54" y="101.6" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP3" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="101.6" x2="111.76" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="101.6" x2="129.54" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="99.06" x2="111.76" y2="101.6" width="0.1524" layer="91"/>
 <junction x="111.76" y="101.6"/>
@@ -10819,6 +10796,13 @@ pull-up</text>
 <pinref part="JP2" gate="G$1" pin="3"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="129.54" x2="111.76" y2="124.46" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="JP3" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="88.9" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
