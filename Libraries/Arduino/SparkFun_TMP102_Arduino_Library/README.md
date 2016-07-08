@@ -1,9 +1,9 @@
 SparkFun TMP102 Arduino Library
 ======================
 
-[![Breakout Board ISO](https://cdn.sparkfun.com//assets/parts/8/3/9/5/11931-01.jpg)](https://www.sparkfun.com/products/11931)
+[![Breakout Board ISO](https://cdn.sparkfun.com/assets/parts/1/0/5/9/3/13314-01a.jpg)
 
-_[TMP102 Breakout Board (SEN-11931)](https://www.sparkfun.com/products/11931)_
+_[TMP102 Breakout Board (SEN-11931)](https://www.sparkfun.com/products/13314)_
 
 This is a breakout board for Texas Instruments's TMP102 -- temperature sensor.
 
@@ -24,7 +24,7 @@ Documentation
 Products that use this Library
 ---------------------------------
 
-* [TMP102 Breakout Board (SEN-11931)](https://www.sparkfun.com/products/11931)- TMP102 Breakout board.
+* [TMP102 Breakout Board (SEN-11931)](https://www.sparkfun.com/products/13314)- TMP102 Breakout board.
 
 
 License Information

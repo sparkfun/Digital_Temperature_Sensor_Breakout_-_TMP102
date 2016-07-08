@@ -1,7 +1,7 @@
 Digital_Temperature_Sensor_Breakout_-_TMP102
 ============================================
 
-[![Part Name](https://dlnmh9ip6v2uc.cloudfront.net//images/products/1/1/9/3/1/11931-01.jpg)  
+[![Part Name](https://cdn.sparkfun.com/assets/parts/1/0/5/9/3/13314-01a.jpg)  
 *Digital Temperature Sensor Breakout - TMP102 (SEN-13314)*](https://www.sparkfun.com/products/13314)
 
 Breakout board for TMP102 digital temperature sensor [The datasheet can be found here.](https://www.sparkfun.com/datasheets/Sensors/Temperature/tmp102.pdf)
@@ -19,9 +19,9 @@ Repository Contents
 
 License Information
 -------------------
-The hardware is released under [Creative Commons Share-alike 3.0](http://creativecommons.org/licenses/by-sa/3.0/).  
+The hardware is released under [Creative Commons Share-alike 4.0](http://creativecommons.org/licenses/by-sa/4.0/).  
 All other code is open source so please feel free to do anything you want with it; you buy me a beer if you use this and we meet someday ([Beerware license](http://en.wikipedia.org/wiki/Beerware)).
 
 Design by Kade Alexander Jensen
-Revised by Alex Wende
 
+Revised by Alex Wende
