@@ -11,7 +11,7 @@ reading from the configuration register.
 
 Resources:
 Wire.h (included with Arduino IDE)
-TMP102.h
+SparkFunTMP102.h
 
 Development environment specifics:
 Arduino 1.0+
@@ -24,7 +24,7 @@ Distributed as-is; no warranty is given.
 ******************************************************************************/
 
 #include <Wire.h> // Used to establied serial communication on the I2C bus
-#include "TMP102.h" // Used to send and recieve specific information from our sensor
+#include "SparkFunTMP102.h" // Used to send and recieve specific information from our sensor
 
 // Connections
 // VCC = 3.3V
@@ -43,7 +43,7 @@ TMP102 sensor0(0x48); // Initialize sensor at I2C address 0x48
 void setup() {
   Serial.begin(9600); // Start serial communication at 9600 baud
   pinMode(ALERT_PIN,INPUT);  // Declare alertPin as an input
-  Wire.begin();  // Join I2C bus
+  sensor0.begin();  // Join I2C bus
 
   // Initialize sensor0 settings
   // These settings are saved in the sensor, even if it loses power
