@@ -5,7 +5,7 @@ Digital Temperature Sensor Breakout - TMP102
 
 [*Digital Temperature Sensor Breakout - TMP102 (SEN-11931)*](https://www.sparkfun.com/products/11931)
 
-Breakout board for TMP102 digital temperature sensor [The datasheet can be found here.](https://www.sparkfun.com/datasheets/Sensors/Temperature/tmp102.pdf)
+Breakout board for TMP102 digital temperature sensor. [The datasheet can be found here.](https://www.sparkfun.com/datasheets/Sensors/Temperature/tmp102.pdf)
 
 This board was created in Eagle v6.4.0. 
 
