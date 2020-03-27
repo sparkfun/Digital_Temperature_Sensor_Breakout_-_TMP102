@@ -1,8 +1,9 @@
-Digital_Temperature_Sensor_Breakout_-_TMP102
+Digital Temperature Sensor Breakout - TMP102
 ============================================
 
-[![Part Name](https://dlnmh9ip6v2uc.cloudfront.net//images/products/1/1/9/3/1/11931-01.jpg)  
-*Digital Temperature Sensor Breakout - TMP102 (SEN-11931)*](https://www.sparkfun.com/products/11931)
+[![TMP102](https://dlnmh9ip6v2uc.cloudfront.net//images/products/1/1/9/3/1/11931-01.jpg)](https://www.sparkfun.com/products/11931)
+
+[*Digital Temperature Sensor Breakout - TMP102 (SEN-11931)*](https://www.sparkfun.com/products/11931)
 
 Breakout board for TMP102 digital temperature sensor [The datasheet can be found here.](https://www.sparkfun.com/datasheets/Sensors/Temperature/tmp102.pdf)
 
@@ -13,6 +14,12 @@ Repository Contents
 
 * **/Hardware** - All Eagle design files (.brd and .sch)
 * **/Production** - Production panel files
+
+Documentation
+-------------------
+
+* [Arduino Library](https://github.com/sparkfun/SparkFun_TMP102_Arduino_Library)
+* [Hookup Guide](https://learn.sparkfun.com/tutorials/tmp102-digital-temperature-sensor-hookup-guide)
 
 License Information
 -------------------
