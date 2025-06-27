@@ -1,7 +1,7 @@
 Digital Temperature Sensor Breakout - TMP102
 ============================================
 
-[![TMP102](https://dlnmh9ip6v2uc.cloudfront.net//images/products/1/1/9/3/1/11931-01.jpg)](https://www.sparkfun.com/products/11931)
+[![TMP102](https://cdn.sparkfun.com/assets/parts/8/3/9/5/11931-01.jpg)](https://www.sparkfun.com/products/11931)
 
 [*Digital Temperature Sensor Breakout - TMP102 (SEN-11931)*](https://www.sparkfun.com/products/11931)
 
